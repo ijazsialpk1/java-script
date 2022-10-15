@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>   //  for each loop is a method in which we can get data from arrays and objects
+
+    let cars = ['car1', 'car2', 'car3', 'car4'];
+    cars.forEach(car);
+    function car(item, index, array) {
+        // document.write(index + ' => ' + item + '<br/>');
+        array[index] = item + '0';
+    }
+    cars.forEach(after);
+    function after (item,index){
+        document.write(index + ' => ' + item + '<br/>')
+    }
+</script>
+
+</html>
